@@ -6,13 +6,13 @@ var bodyParser = require("body-parser");
 var jsonParser = bodyParser.json()
 var mongoose = require("mongoose");
 
-require("./src/Models/users");
-require("./src/Models/products");
-require("./src/Models/orderProducts");
-require("./src/Models/shoppinglists");
-require("./src/Models/userShoppinglists");
-require("./src/Models/orders");
-require("./src/Models/rooms");
+require("./Models/users");
+require("./Models/products");
+require("./Models/orderProducts");
+require("./Models/shoppinglists");
+require("./Models/userShoppinglists");
+require("./Models/orders");
+require("./Models/rooms");
 
 const dbConfig = require("./src/Config/db");
 
